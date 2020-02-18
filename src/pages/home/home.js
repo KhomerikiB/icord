@@ -16,14 +16,14 @@ const Home = props => {
       >
         <div className="main-slider__item  full">
           <img
-            src={require("../../static/images/slider-b.jpg")}
+            src={require("../../static/images/slider-1.jpg")}
             className="main-slider__item__img"
             alt=""
           />
         </div>
         <div className="main-slider__item  full">
           <img
-            src={require("../../static/images/slider-b.jpg")}
+            src={require("../../static/images/slider-1.jpg")}
             className="main-slider__item__img"
             alt=""
           />
