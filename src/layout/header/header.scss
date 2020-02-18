@@ -1,0 +1,39 @@
+.main-header {
+  border-bottom: 1px solid rgba(46, 204, 113, 0.2);
+  height: 12rem;
+  &.auto {
+    height: 100%;
+    .main-header__wrapper {
+      padding-right: 0;
+    }
+    .home-col-1 {
+      margin-top: 2.2rem;
+    }
+  }
+  &__wrapper {
+    padding-right: 3rem;
+  }
+  &__logo {
+    height: 7rem;
+    padding-left: 3rem;
+  }
+  &__text {
+    line-height: 2.5rem;
+  }
+  .header-image {
+    display: flex;
+    img {
+      height: 30vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .current-page {
+    padding-left: 3rem;
+    color: #2ecc71;
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    text-transform: capitalize;
+  }
+}

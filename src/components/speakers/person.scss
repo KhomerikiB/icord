@@ -1,0 +1,37 @@
+.speakers-item {
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  &__wrapper {
+    padding: 2rem;
+  }
+  &__imagebox {
+    img {
+      width: 100%;
+      max-height: 30rem;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+  color: #000;
+
+  &__title {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      width: 40%;
+      background-color: rgba(0, 0, 0, 0.16);
+    }
+  }
+  &__subtitle {
+    font-size: 1.4rem;
+    opacity: 0.7;
+  }
+}
