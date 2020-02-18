@@ -33,7 +33,7 @@ const Index = props => {
             </p>
           ) : (
             <div className="header-image">
-              <img alt="" src={require("../../static/images/slider-b.jpg")} />
+              <img alt="" src={require("../../static/images/slider-1.jpg")} />
             </div>
           )}
         </div>
