@@ -42,7 +42,7 @@ const Nav = () => {
               <Link to="/programming-plan">Program Planning Committee</Link>
             </li>
             <li>
-              <Link to="/generalinformation">Scientific Program</Link>
+              <Link to="/Scientific-Program">Scientific Program</Link>
             </li>
             <li>
               <Link to="/generalinformation">Program at a glance</Link>
@@ -79,7 +79,7 @@ const Nav = () => {
           </ul>
         </li>
         <li>
-          <Link to="/generalinformation">Useful Information</Link>
+          <Link to="/Useful-Information">Useful Information</Link>
         </li>
         <li>
           <Link to="/generalinformation">Sponsors</Link>

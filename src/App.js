@@ -8,7 +8,7 @@ import Welcome from "./pages/welcome/welcome";
 import GeneralInformation from "./pages/generalInformation/general";
 import StaticPage from "./pages/static/static";
 import Nav from "./layout/nav/nav";
-import { ProgramPlanning } from "./data";
+import { ProgramPlanning, ProgramScience, UsefulInformation } from "./data";
 function App() {
   return (
     <div className="App">
@@ -25,6 +25,16 @@ function App() {
           <Route
             path="/programming-plan"
             render={props => <StaticPage data={ProgramPlanning} {...props} />}
+          />
+
+          <Route
+            path="/Scientific-Program"
+            render={props => <StaticPage data={ProgramScience} {...props} />}
+          />
+
+          <Route
+            path="/Useful-Information"
+            render={props => <StaticPage data={UsefulInformation} {...props} />}
           />
         </div>
       </div>
