@@ -6,8 +6,9 @@ import Home from "./pages/home/home";
 import Speakers from "./pages/speakers/speakers";
 import Welcome from "./pages/welcome/welcome";
 import GeneralInformation from "./pages/generalInformation/general";
-
+import StaticPage from "./pages/static/static";
 import Nav from "./layout/nav/nav";
+import { ProgramPlanning } from "./data";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,10 @@ function App() {
           <Route path="/speakers" component={Speakers} />
           <Route path="/welcome" component={Welcome} />
           <Route path="/generalInformation" component={GeneralInformation} />
+          <Route
+            path="/programmingplan"
+            render={props => <StaticPage data={ProgramPlanning} {...props} />}
+          />
         </div>
       </div>
       <Route path="/" component={Footer} />

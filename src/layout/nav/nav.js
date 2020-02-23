@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
           <ul className="main-nav__dropdown">
             <li>
-              <Link to="/generalinformation">Program Planning Committee</Link>
+              <Link to="/programmingplan">Program Planning Committee</Link>
             </li>
             <li>
               <Link to="/generalinformation">Scientific Program</Link>
@@ -60,9 +60,6 @@ const Nav = () => {
         </li>
         <li>
           <Link to="/generalinformation">Abstracts</Link>
-        </li>
-        <li>
-          <Link to="/generalinformation">Accommodation</Link>
         </li>
         <li>
           <Link to="/generalinformation">Accommodation</Link>
