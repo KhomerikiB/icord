@@ -1,15 +1,42 @@
 .main-nav {
   padding: 4rem 3rem;
+  & > ul > li {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  &__dropdown {
+    display: none;
+    padding: 10px;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 7px;
+      }
+    }
+  }
+  &__dropdown__li {
+    p {
+      max-width: 70%;
+    }
+    &:hover {
+      p {
+        text-decoration: underline;
+      }
+      .main-nav__dropdown {
+        display: block;
+      }
+    }
+  }
   li {
+    p {
+      cursor: pointer;
+    }
     a {
       color: #000;
       transition: all 0.3s ease;
       &:hover {
         color: #2ecc71;
       }
-    }
-    &:not(:last-child) {
-      margin-bottom: 1.5rem;
     }
   }
 }
