@@ -5,6 +5,8 @@ import { Route, withRouter } from "react-router-dom";
 import Home from "./pages/home/home";
 import Speakers from "./pages/speakers/speakers";
 import Welcome from "./pages/welcome/welcome";
+import GeneralInformation from "./pages/generalInformation/general";
+
 import Nav from "./layout/nav/nav";
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/speakers" component={Speakers} />
           <Route path="/welcome" component={Welcome} />
+          <Route path="/generalInformation" component={GeneralInformation} />
         </div>
       </div>
       <Route path="/" component={Footer} />
