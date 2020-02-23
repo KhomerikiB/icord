@@ -1,14 +1,17 @@
 import React from "react";
 import "./person.scss";
-const Person = () => {
+const Person = ({ data }, ...rest) => {
   return (
     <div className="speakers-item">
       <div className="speakers-item__imagebox">
-        <img src={require("../../static/images/speaker.jpg")} alt="" />
+        <img
+          src={require(`../../static/images/speaker-${data.image}.jpg`)}
+          alt=""
+        />
       </div>
       <div className="speakers-item__wrapper">
-        <p className="speakers-item__title">Joan Comella</p>
-        <p className="speakers-item__subtitle">Proffession</p>
+        <p className="speakers-item__title">{data.title}</p>
+        <p className="speakers-item__subtitle">{data.description}</p>
       </div>
     </div>
   );

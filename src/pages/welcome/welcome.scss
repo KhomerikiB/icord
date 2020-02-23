@@ -6,3 +6,16 @@
   align-items: center;
   justify-content: center;
 }
+.welcome-container {
+  .speakers-grid {
+    margin: 4rem;
+  }
+  .single-person-wrapper {
+    margin: 4rem 0;
+    .speakers-item {
+      &__title {
+        min-height: auto;
+      }
+    }
+  }
+}
