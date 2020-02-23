@@ -21,9 +21,9 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/speakers" component={Speakers} />
           <Route path="/welcome" component={Welcome} />
-          <Route path="/generalInformation" component={GeneralInformation} />
+          <Route path="/general-information" component={GeneralInformation} />
           <Route
-            path="/programmingplan"
+            path="/programming-plan"
             render={props => <StaticPage data={ProgramPlanning} {...props} />}
           />
         </div>

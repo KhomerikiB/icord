@@ -4,6 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "./home.scss";
 
 const Home = props => {
+  const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
   return (
     <div className=" main-slider full">
       <Carousel
@@ -14,20 +15,15 @@ const Home = props => {
         interval={5000}
         infiniteLoop={true}
       >
-        <div className="main-slider__item  full">
-          <img
-            src={require("../../static/images/slider-1.jpg")}
-            className="main-slider__item__img"
-            alt=""
-          />
-        </div>
-        <div className="main-slider__item  full">
-          <img
-            src={require("../../static/images/slider-1.jpg")}
-            className="main-slider__item__img"
-            alt=""
-          />
-        </div>
+        {images.map(num => (
+          <div className="main-slider__item  full" key={num}>
+            <img
+              src={require(`../../static/images/slider-image${num}.jpg`)}
+              className="main-slider__item__img"
+              alt=""
+            />
+          </div>
+        ))}
       </Carousel>
     </div>
   );

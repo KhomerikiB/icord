@@ -19,16 +19,16 @@ const Nav = () => {
           </div>
           <ul className="main-nav__dropdown">
             <li>
-              <Link to="/generalinformation">General Information</Link>
+              <Link to="/general-information">General Information</Link>
             </li>
             <li>
               <Link to="/organizers">Organizers and Support Organizations</Link>
             </li>
             <li>
-              <Link to="/organizingcommittees">Organizing Committees</Link>
+              <Link to="/organizing-committees">Organizing Committees</Link>
             </li>
             <li>
-              <Link to="/generalinformation">Venue</Link>
+              <Link to="/general-information">Venue</Link>
             </li>
           </ul>
         </li>
@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
           <ul className="main-nav__dropdown">
             <li>
-              <Link to="/programmingplan">Program Planning Committee</Link>
+              <Link to="/programming-plan">Program Planning Committee</Link>
             </li>
             <li>
               <Link to="/generalinformation">Scientific Program</Link>

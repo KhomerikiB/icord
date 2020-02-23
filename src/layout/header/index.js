@@ -5,7 +5,7 @@ const Index = props => {
   const [path, setPath] = useState("");
   useEffect(() => {
     const { pathname } = props.history.location;
-    setPath(pathname.split("/")[1]);
+    setPath(pathname.split("/")[1].replace("-", " "));
     if (pathname !== "/") {
       setIsIndex(false);
     } else {
@@ -33,7 +33,10 @@ const Index = props => {
             </p>
           ) : (
             <div className="header-image">
-              <img alt="" src={require("../../static/images/slider-1.jpg")} />
+              <img
+                alt=""
+                src={require("../../static/images/slider-image1.jpg")}
+              />
             </div>
           )}
         </div>
