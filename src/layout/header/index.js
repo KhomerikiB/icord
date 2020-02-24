@@ -26,16 +26,15 @@ const Index = props => {
           </div>
           {isIndex ? (
             <p className="main-header__text home-col-2">
-              ICORD is an International Society for all individuals active in
-              rare diseases and/or orphan drugs, including health care,
-              research, academic, industry, patients, patient groups, regulatory
-              authorities, health authorities, and public policy professionals.
+              The 15 th Meeting of the International Conferences on Rare Diseases and Orphan Drugs (ICORD)
+              arranged by ICORD in collaboration with the GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES
+              (GeRaD)
             </p>
           ) : (
             <div className="header-image">
               <img
                 alt=""
-                src={require("../../static/images/slider-image1.jpg")}
+                src={require("../../static/images/header-image.jpg")}
               />
             </div>
           )}

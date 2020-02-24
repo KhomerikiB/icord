@@ -85,7 +85,7 @@ const Nav = () => {
           <Link to="/generalinformation">Sponsors</Link>
         </li>
         <li>
-          <Link to="/generalinformation">Contact Us</Link>
+          <Link to="/Registration">Contact Us</Link>
         </li>
       </ul>
     </nav>

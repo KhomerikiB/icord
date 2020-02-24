@@ -149,3 +149,136 @@ GET (Georgia Standard Time), GMT/UTC offset: +04:00 hours (winter)/ +03:00 hours
 
 <p> <strong> WATER </strong> <br> 
 Tap water is drinkable in all parts of Georgia. </p> `;
+
+
+
+
+export const Registration = `
+<p> <strong> CONFERENCE REGISTRATION </strong> <br> <br>
+Take advantage of the Early Bird registration fee!  <br> <br>
+Please <a href="         ">click here</a> c to register on-line. <br> <br>
+Online registration at this website is the most preferred way. <br> <br>
+
+However, if you experience any problem, you may download the Registration Form in PDF version,
+complete, scan and send it by e-mail to secretariat@icord2020.org <br> <br>
+
+
+   
+ 
+<div style="max-width: 900px; border: 1px solid black;">
+<table style = "border: 1px solid black; width:100%; border-collapse: collapse;">
+  <tr>
+    <th style = "background-color: gray; width:35%;" ></th>
+    <th style = "width:65%;">TYPE OF REGISTRATION**</th>
+  </tr>
+</table>
+<table style = "width: 100%;"> 
+  <tr>
+    <th style = "width:35%;">TYPE OF PARTICIPANTS</th>
+    <th>Early (till June. 30)</th>
+    <th>Ordinary (July 01 – Nov 15)</th>
+    <th>On-site</th>
+  </tr>
+  <tr>
+    <td>Regular attendee</td>
+    <td>200 EURO</td>
+    <td>275 EURO</td>
+    <td>350 EURO</td>
+  </tr>
+  <tr>
+    <td>ICORD member*</td>
+    <td>150 EURO</td>
+    <td>225 EURO</td>
+    <td>300 EURO</td>
+  </tr>
+  <tr>
+    <td>Student/Resident**</td>
+    <td>100 EURO</td>
+    <td>175 EURO</td>
+    <td>250 EURO</td>
+  </tr>
+  <tr>
+    <td>Patient Organization Representative*** </td>
+    <td>100 EURO</td>
+    <td>175 EURO</td>
+    <td>250 EURO</td>
+  </tr>
+  <tr>
+    <td>Company</td>
+    <td>600 EURO</td>
+    <td>750 EURO</td>
+    <td>900 EURO</td>
+  </tr>
+  <tr>
+    <td>Armenia/Azerbaijan Delegates</td>
+     <td>100 EURO</td>
+    <td>125 EURO</td>
+    <td>150 EURO</td>
+  </tr>
+  <tr>
+    <td>Georgian Delegates</td>
+    <td>250 GEL</td>
+    <td>300 GEL</td>
+    <td>350 GEL</td>
+  </tr>
+  <tr>
+    <td>Accompanying Persons</td>
+    <td>70 EURO</td>
+    <td>70 EURO</td>
+    <td>100 EURO</td>
+  </tr>
+</table>
+</div>
+<br> <br>
+
+<strong> * </strong>  A verification will be performed by the conference secretariat to validate your membership; <br>
+<strong> * </strong> Please provide by secretariat@icord2020.org a copy of a Student’s ID or a confirmation signed by the 
+head of the department at the moment of your registration. Confirmations handed in at a later stage
+cannot be considered. <br>
+<strong> *** </strong>  Please provide by secretariat@icord2020.org a confirmation signed by the head of the organization at the moment of your registration. Confirmations handed in at a later stage cannot be considered. <br> <br>
+<strong>  ** </strong>  Group registration at a reduced price is also available. Please contact us at info@icord2020.ge or secretariat@icord2020.org <br> <br>
+
+Participation at the Gala Dinner 75 EURO
+<br> <br>
+
+<strong> Registration Fee for Delegates covers: </strong> <br>
+<strong> • </strong> Admission to Scientific Sessions and Satellite Symposiums <br>
+<strong> • </strong>Collection of Abstracts <br>
+<strong> • </strong> Congress Bag with numerous Congress Documents <br>
+<strong> • </strong> Coffee Breaks/Lunch <br>
+<strong> • </strong> Opening Ceremony and Welcome Reception <br>
+<strong> • </strong> Closing Ceremony <br>
+<strong> • </strong> Admission to Exhibition <br> <br>
+
+<strong> Registration Fee for Accompanying Persons covers: </strong> <br>
+<strong> • </strong> Opening /Closing Ceremony and Welcome Reception <br>
+<strong> • </strong> Admission to Exhibition <br> <br>
+
+For any further information on your registration, please contact us at info@icord2020.org or
+secretariat@icord202.org <br> <br>
+
+<center> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </center>
+<br>
+<strong> METHODS OF PAYMENT </strong> <br>
+Only credit cards (Visa / MasterCard) and bank transfers will be accepted. On-site payments can also be
+made in cash. <br> <br>
+
+<strong> By Bank transfer (EURO) </strong> <br>
+BENEFICIARY BANK: CARTU BANK JSC <br>
+BENEFICIARY BANK ADDRESS: 39A Chavchavadze Ave., Tbilisi 0162, Georgia <br>
+SWIFT: CRTUGE22 <br>
+BENEFICIARY: Georgian Foundation for Genetic and Rare Diseases <br>
+IBAN: GE14 CR00 0000 0006 0936 18 <br>
+Communication of the payment: ICORD 2020/Participant name <br> <br>
+
+<strong> By Credit card </strong> <br>
+Payment is accepted by Visa and MasterCard credit cards. <br> <br>
+
+<strong> CANCELLATION </strong> <br>
+All cancellations must be notified in writing (by email) to the Registration Department
+(info@icord2020.org) according to the following policy: <br> <br>
+<strong> • </strong> In case of cancellation of participation before 15 June 2020 registration fees will be refunded deducting handling fee of 50 EU per person. After this date, there will be no refund whatsoever; <br>
+<strong> • </strong> Name changes will be charged with 25 EU per registration; <br>
+<strong> • </strong> Special requests for the processing of the invoice should kindly be submitted in writing; <br>
+<strong> • </strong> All refunds will be made within 2 months after the end of the event. Bank charges may be
+deducted.  <p> `;
