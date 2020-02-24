@@ -28,7 +28,7 @@ body {
 .home-row {
   display: grid;
   width: 100%;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 30rem 1fr;
 }
 
 .App {
@@ -74,8 +74,8 @@ body {
   }
 }
 
-
-table, th {
+table,
+th {
   border: 1px solid gray;
   text-align: center;
 }
@@ -85,4 +85,21 @@ td {
   margin-left: 10px;
   padding-left: 10px;
   text-align: left;
+}
+.button {
+  padding: 2rem 1rem;
+  min-width: 15rem;
+  cursor: pointer;
+  outline: none;
+  font-family: "Rubik";
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  background-color: #2ecc71;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #1fb85e;
+  }
 }

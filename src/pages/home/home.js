@@ -7,6 +7,16 @@ const Home = props => {
   const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
   return (
     <div className=" main-slider full">
+      <div className="main-slider__buttons">
+        <button className="button">registration</button>
+      </div>
+      <div className="main-slider__abs__text">
+        <p className="text-wrapper">
+          The 15 th Meeting of the International Conferences on Rare Diseases
+          and Orphan Drugs (ICORD) arranged by ICORD in collaboration with the
+          GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES (GeRaD)
+        </p>
+      </div>
       <Carousel
         showThumbs={false}
         showIndicators={false}

@@ -27,8 +27,7 @@ Oleg Kvlividze, GeRaD (Georgia) </p>       
 <p> Simon Day (UK) </p>
 <p> Tamara Sarkisian (Armenia) </p>
 <p> Vugar Eyvazov (Azerbaijan) </p>
-<p> Yann Le Cam (France) </p> `  ;
-
+<p> Yann Le Cam (France) </p> `;
 
 export const ProgramScience = `
 <p> <strong> ICORD 2020 Scientific Program Topics </strong> </p>
@@ -66,7 +65,6 @@ Access to Essential Medicines;
 <span>&#8250;</span> Big Data Analytics and Artificial Intelligence.
 </p>
 `;
-
 
 export const UsefulInformation = `
 <p> <strong>GENERAL INFORMATION </strong>  <br>
@@ -150,13 +148,10 @@ GET (Georgia Standard Time), GMT/UTC offset: +04:00 hours (winter)/ +03:00 hours
 <p> <strong> WATER </strong> <br> 
 Tap water is drinkable in all parts of Georgia. </p> `;
 
-
-
-
 export const Registration = `
 <p> <strong> CONFERENCE REGISTRATION </strong> <br> <br>
 Take advantage of the Early Bird registration fee!  <br> <br>
-Please <a href="         ">click here</a> c to register on-line. <br> <br>
+Please <a href="#">click here</a> c to register on-line. <br> <br>
 Online registration at this website is the most preferred way. <br> <br>
 
 However, if you experience any problem, you may download the Registration Form in PDF version,
@@ -166,15 +161,15 @@ complete, scan and send it by e-mail to secretariat@icord2020.org <br> <br>
    
  
 <div style="max-width: 900px; border: 1px solid black;">
-<table style = "border: 1px solid black; width:100%; border-collapse: collapse;">
+<table style="border: 1px solid black; width:100%; border-collapse: collapse;">
   <tr>
-    <th style = "background-color: gray; width:35%;" ></th>
-    <th style = "width:65%;">TYPE OF REGISTRATION**</th>
+    <th style="background-color: gray; width:35%;" ></th>
+    <th style="width:65%;">TYPE OF REGISTRATION**</th>
   </tr>
 </table>
-<table style = "width: 100%;"> 
+<table style="width: 100%;"> 
   <tr>
-    <th style = "width:35%;">TYPE OF PARTICIPANTS</th>
+    <th style="width:35%;">TYPE OF PARTICIPANTS</th>
     <th>Early (till June. 30)</th>
     <th>Ordinary (July 01 – Nov 15)</th>
     <th>On-site</th>
