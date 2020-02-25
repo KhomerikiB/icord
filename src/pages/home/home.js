@@ -2,19 +2,25 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./home.scss";
+import { useHistory } from 'react-router-dom';
+
 
 const Home = props => {
   const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
+
   return (
     <div className=" main-slider full">
       <div className="main-slider__buttons">
-        <button className="button">registration</button>
+        <button className="button" onClick={() => props.history.push("/Registration")}>Register Today</button> <br></br>
+        <br></br>
+        <button className="button" onClick={() => props.history.push("/Scientific-Program")}>Scientific Program</button>
+        <br></br>
+        <br></br>
+        <button className="button" onClick={() => props.history.push("/")}>Usful Downloads</button>
       </div>
       <div className="main-slider__abs__text">
         <p className="text-wrapper">
-          The 15 th Meeting of the International Conferences on Rare Diseases
-          and Orphan Drugs (ICORD) arranged by ICORD in collaboration with the
-          GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES (GeRaD)
+            RARE DISEASES ARE NOT ORPHANS
         </p>
       </div>
       <Carousel

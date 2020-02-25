@@ -227,11 +227,11 @@ complete, scan and send it by e-mail to secretariat@icord2020.org <br> <br>
 <br> <br>
 
 <strong> * </strong>  A verification will be performed by the conference secretariat to validate your membership; <br>
-<strong> * </strong> Please provide by secretariat@icord2020.org a copy of a Student’s ID or a confirmation signed by the 
+<strong> * </strong> Please provide by <a href = "mailto: secretariat@icord2020.org">secretariat@icord2020.org</a> a copy of a Student’s ID or a confirmation signed by the 
 head of the department at the moment of your registration. Confirmations handed in at a later stage
 cannot be considered. <br>
-<strong> *** </strong>  Please provide by secretariat@icord2020.org a confirmation signed by the head of the organization at the moment of your registration. Confirmations handed in at a later stage cannot be considered. <br> <br>
-<strong>  ** </strong>  Group registration at a reduced price is also available. Please contact us at info@icord2020.ge or secretariat@icord2020.org <br> <br>
+<strong> *** </strong>  Please provide by <a href = "mailto: secretariat@icord2020.org">secretariat@icord2020.org</a> a confirmation signed by the head of the organization at the moment of your registration. Confirmations handed in at a later stage cannot be considered. <br> <br>
+<strong>  ** </strong>  Group registration at a reduced price is also available. Please contact us at  <a href = "mailto: info@icord2020.org">info@icord2020.org</a> or <a href = "mailto: secretariat@icord2020.org">secretariat@icord2020.org</a> <br> <br>
 
 Participation at the Gala Dinner 75 EURO
 <br> <br>
@@ -249,8 +249,8 @@ Participation at the Gala Dinner 75 EURO
 <strong> • </strong> Opening /Closing Ceremony and Welcome Reception <br>
 <strong> • </strong> Admission to Exhibition <br> <br>
 
-For any further information on your registration, please contact us at info@icord2020.org or
-secretariat@icord202.org <br> <br>
+For any further information on your registration, please contact us at <a href = "mailto: info@icord2020.org">info@icord2020.org</a>
+<a href = "mailto: secretariat@icord2020.org">secretariat@icord2020.org</a> <br> <br>
 
 <center> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </center>
 <br>
@@ -271,7 +271,7 @@ Payment is accepted by Visa and MasterCard credit cards. <br> <br>
 
 <strong> CANCELLATION </strong> <br>
 All cancellations must be notified in writing (by email) to the Registration Department
-(info@icord2020.org) according to the following policy: <br> <br>
+(<a href = "mailto: info@icord2020.org">info@icord2020.org</a>) according to the following policy: <br> <br>
 <strong> • </strong> In case of cancellation of participation before 15 June 2020 registration fees will be refunded deducting handling fee of 50 EU per person. After this date, there will be no refund whatsoever; <br>
 <strong> • </strong> Name changes will be charged with 25 EU per registration; <br>
 <strong> • </strong> Special requests for the processing of the invoice should kindly be submitted in writing; <br>

@@ -40,6 +40,7 @@ function App() {
             path="/Registration"
             render={props => <StaticPage data={Registration} {...props} />}
           />
+
         </div>
       </div>
       <Route path="/" component={Footer} />

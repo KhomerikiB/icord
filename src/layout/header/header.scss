@@ -37,4 +37,17 @@
     left: 0;
     text-transform: capitalize;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+.grid-item2 {
+  margin-left: 5px;
+}
+  p.nextDown{
+    margin-top: 2rem;
+    font-size: 15px;
+  }
+
+
 }

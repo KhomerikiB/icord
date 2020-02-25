@@ -24,14 +24,14 @@
   }
   &__abs__text {
     position: absolute;
-    top: 50%;
+    top: 4rem;
     left: 5rem;
     transform: translateY(-50%);
     z-index: 10;
     width: 50%;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -43,4 +43,11 @@
 }
 .carousel .control-prev.control-arrow:before {
   border-right: 8px solid #2ecc71;
+}
+
+
+.button{
+  width: 165px;
+  padding-left: 1rem;
+  text-align: left;
 }

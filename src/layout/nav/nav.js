@@ -56,7 +56,7 @@ const Nav = () => {
           </ul>
         </li>
         <li>
-          <Link to="/generalinformation">Registration</Link>
+          <Link to="/Registration">Registration</Link>
         </li>
         <li>
           <Link to="/generalinformation">Abstracts</Link>
@@ -85,7 +85,7 @@ const Nav = () => {
           <Link to="/generalinformation">Sponsors</Link>
         </li>
         <li>
-          <Link to="/Registration">Contact Us</Link>
+          <Link to="/">Contact Us</Link>
         </li>
       </ul>
     </nav>
