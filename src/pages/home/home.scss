@@ -9,7 +9,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      filter: sepia(1);
+      filter: sepia(100%);
       transition: all 0.3s ease;
     }
     &:hover img {
