@@ -16,7 +16,7 @@
     position: absolute;
     top: 0;
     right: 0;
-      
+
     transform: translateX(100%);
     li {
       &:not(:last-child) {
@@ -26,11 +26,12 @@
   }
   &__dropdown__li {
     position: relative;
+    cursor: pointer;
     p {
       max-width: 80%;
     }
 
-    &:hover {
+    &.active {
       p {
         text-decoration: underline;
       }

@@ -99,7 +99,20 @@ td {
   background-color: #2ecc71;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  text-align: center;
   &:hover {
     background-color: #1fb85e;
   }
+}
+
+.main-input {
+  height: 5rem;
+  padding: 0 2rem;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #2ecc71;
+  margin-bottom: 1.4rem;
+  width: 100%;
+  display: block;
+  max-width: 45rem;
 }
