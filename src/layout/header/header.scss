@@ -2,8 +2,7 @@
   border-bottom: 3px solid #8fa56b;
   height: 12rem;
   &.auto {
-    .grid-item3{
-    }
+    
     height: 100%;
     .main-header__wrapper {
       padding-right: 0;
@@ -24,6 +23,9 @@
   &__text {
     align-self: left;
     line-height: 2.5rem;
+    font-family: "cordel";
+    font-size: 18px;
+ 
   }
   .header-image {
     display: flex;
@@ -48,7 +50,7 @@
     grid-column: 1 / span 2;
     text-align: center;
     font-size: 30px;
-    font-style: oblique;
+    font-family: "cordel";
   }
 
   .grid-item2 {

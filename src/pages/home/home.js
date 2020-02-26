@@ -2,7 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./home.scss";
-import { useHistory } from "react-router-dom";
+
 
 const Home = props => {
   const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
@@ -27,7 +27,7 @@ const Home = props => {
         <br></br>
         <br></br>
         <button className="button" onClick={() => props.history.push("/")}>
-          Usful Downloads
+          Useful Downloads
         </button>
       </div>
       <div className="main-slider__abs__text">
