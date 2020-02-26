@@ -7,91 +7,87 @@
     &:not(:last-child) {
       margin-bottom: 2rem;
     }
-
- 
   }
 
-  
   &__dropdown {
-    
     display: none;
     background-color: #fff;
     position: relative;
     top: 0;
     right: 0;
-    
-   
+
     li {
-      padding: 5px;
+      padding: 5px 15px;
       margin-top: 2rem;
-      border: 2px solid #8FA56B;
+      border: 2px solid #8fa56b;
       border-radius: 40px;
-      &:hover{   
+      &:hover {
         color: white;
-        background-color:  #8FA56B;
+        background-color: #8fa56b;
         border: 2px solid gray;
         border-radius: 40px;
       }
     }
   }
   &__dropdown__li {
-    
     position: relative;
     cursor: pointer;
     p {
       max-width: 100%;
     }
     &.active {
-      
+      & > .flex-space {
+        color: white;
+        background-color: #8fa56b;
+        border: 2px solid gray;
+      }
       .main-nav__dropdown {
         display: block;
+        padding-left: 2rem;
       }
     }
-    padding:0px;
+    padding: 0px;
+    .dropdown-item {
+      &:hover a {
+        color: white;
+      }
+    }
   }
   li {
-
-     
     p {
       cursor: pointer;
-      
     }
     a {
-      display:block;
+      display: block;
       color: #000;
-      transition: all 0.3s ease;
     }
-
   }
-  .flex-space { 
-    padding: 5px;
-    border: 2px solid #8FA56B;
+  .flex-space {
+    padding: 5px 15px;
+    border: 2px solid #8fa56b;
     border-radius: 40px;
-    &:hover{   
+    &:hover {
       color: white;
-      background-color:  #8FA56B;
+      background-color: #8fa56b;
       border: 2px solid gray;
-      border-radius: 40px;
-    }
     }
   }
+}
 
-  li.no_dropdown {
-    &:hover{
+li.no_dropdown {
+  &:hover {
+    background-color: #8fa56b;
+    border: 2px solid gray;
+    a {
       color: white;
-      background-color:  #8FA56B;
-      border: 2px solid gray;
-      border-radius: 40px;
     }
-
-    padding: 5px;
-    border: 2px solid #8FA56B;
-    border-radius: 40px;
-  }
-  
-
-  .dropdown-item:hover{
-    color:white;
   }
 
-  
+  padding: 5px 15px;
+  border: 2px solid #8fa56b;
+  border-radius: 40px;
+}
+
+.dropdown-item:hover {
+  color: white;
+}
