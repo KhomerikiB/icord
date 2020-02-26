@@ -151,7 +151,7 @@ Tap water is drinkable in all parts of Georgia. </p> `;
 export const Registration = `
 <p> <strong> CONFERENCE REGISTRATION </strong> <br> <br>
 Take advantage of the Early Bird registration fee!  <br> <br>
-Please <a href="#">click here</a> c to register on-line. <br> <br>
+Please <a id="replace-link">click here</a> c to register on-line. <br> <br>
 Online registration at this website is the most preferred way. <br> <br>
 
 However, if you experience any problem, you may download the Registration Form in PDF version,
@@ -252,7 +252,7 @@ Participation at the Gala Dinner 75 EURO
 For any further information on your registration, please contact us at <a href = "mailto: info@icord2020.org">info@icord2020.org</a>
 <a href = "mailto: secretariat@icord2020.org">secretariat@icord2020.org</a> <br> <br>
 
-<center> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </center>
+
 <br>
 <strong> METHODS OF PAYMENT </strong> <br>
 Only credit cards (Visa / MasterCard) and bank transfers will be accepted. On-site payments can also be

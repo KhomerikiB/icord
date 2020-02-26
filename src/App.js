@@ -7,8 +7,15 @@ import Speakers from "./pages/speakers/speakers";
 import Welcome from "./pages/welcome/welcome";
 import GeneralInformation from "./pages/generalInformation/general";
 import StaticPage from "./pages/static/static";
+import RegistrationForm from "./pages/registrationForm/registrationForm";
+
 import Nav from "./layout/nav/nav";
-import { ProgramPlanning, ProgramScience, UsefulInformation, Registration } from "./data";
+import {
+  ProgramPlanning,
+  ProgramScience,
+  UsefulInformation,
+  Registration
+} from "./data";
 function App() {
   return (
     <div className="App">
@@ -40,7 +47,7 @@ function App() {
             path="/Registration"
             render={props => <StaticPage data={Registration} {...props} />}
           />
-
+          <Route path="/Registration-form" component={RegistrationForm} />
         </div>
       </div>
       <Route path="/" component={Footer} />
