@@ -13,7 +13,7 @@ const Index = props => {
     }
   }, [props.history.location.pathname]);
   return (
-    <header className={`main-header flex-center ${!isIndex ? "auto" : null}`}>
+    <header className={`main-header flex-center ${!isIndex ? "auto" : ""}`}>
       <div className="main-header__wrapper">
         <div className="home-row">
           <div className="home-col-1 relative">

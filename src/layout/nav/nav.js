@@ -106,14 +106,15 @@ const Nav = () => {
       if (!item.hasDropdown) {
         return (
          
-          <li className = "no_dropdown" onClick={() => setCurrentMenu(undefined)}>
+          <li className = "no_dropdown" key={index} onClick={() => setCurrentMenu(undefined)}>
             <Link to={item.slug}>{item.title}</Link>
           </li>
           
         );
       } else {
         return (
-          <li
+          <li 
+            key={index}
             className={
               currentMenu === index
                 ? " main-nav__dropdown__li active"
@@ -131,9 +132,10 @@ const Nav = () => {
             </div>
 
             <ul className="main-nav__dropdown">
-              {item.dropdown.map(inner => {
+              {item.dropdown.map((inner, innerindex )=> {
                 return (
-                  <li className="dropdown-item">
+                  <li key={innerindex}
+                  className="dropdown-item">
                     <Link to={inner.slug}>{inner.title}</Link>
                   </li>
                 );

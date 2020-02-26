@@ -2,6 +2,8 @@
   border-bottom: 3px solid #8fa56b;
   height: 12rem;
   &.auto {
+    .grid-item3{
+    }
     height: 100%;
     .main-header__wrapper {
       padding-right: 0;
@@ -34,6 +36,7 @@
   .current-page {
     text-align: center;
     color: #8fa56b;
+    text-transform: uppercase;
   }
   .grid-container {
     display: grid;
@@ -43,7 +46,6 @@
   .grid-item3 {
     grid-row: 2;
     grid-column: 1 / span 2;
-    margin-top: 2rem;
     text-align: center;
     font-size: 30px;
     font-style: oblique;
