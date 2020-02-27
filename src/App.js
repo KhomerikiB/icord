@@ -14,7 +14,13 @@ import {
   ProgramPlanning,
   ProgramScience,
   UsefulInformation,
-  Registration
+  Registration,
+  Venue,
+  Abstracts,
+  Accomodation,
+  Tours,
+  AboutGeorgia,
+  Sponsors
 } from "./data";
 function App() {
   return (
@@ -46,6 +52,30 @@ function App() {
           <Route
             path="/Registration"
             render={props => <StaticPage data={Registration} {...props} />}
+          />
+          <Route
+            path="/Venue"
+            render={props => <StaticPage data={Venue} {...props} />}
+          />
+          <Route
+            path="/Abstracts"
+            render={props => <StaticPage data={Abstracts} {...props} />}
+          />
+          <Route
+            path="/Accomodation"
+            render={props => <StaticPage data={Accomodation} {...props} />}
+          />
+          <Route
+            path="/About-Georgia"
+            render={props => <StaticPage data={AboutGeorgia} {...props} />}
+          />
+          <Route
+            path="/Tours"
+            render={props => <StaticPage data={Tours} {...props} />}
+          />
+          <Route
+            path="/Sponsors"
+            render={props => <StaticPage data={Sponsors} {...props} />}
           />
           <Route path="/Registration-form" component={RegistrationForm} />
         </div>

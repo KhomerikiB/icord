@@ -277,3 +277,28 @@ All cancellations must be notified in writing (by email) to the Registration Dep
 <strong> • </strong> Special requests for the processing of the invoice should kindly be submitted in writing; <br>
 <strong> • </strong> All refunds will be made within 2 months after the end of the event. Bank charges may be
 deducted.  <p> `;
+
+
+export const Venue = `
+
+`;
+
+export const Abstracts = `
+
+`;
+
+export const Accomodation = `
+
+`;
+
+export const Tours = `
+
+`;
+
+export const AboutGeorgia = `
+
+`;
+
+export const Sponsors = `
+
+`;

@@ -53,13 +53,17 @@
       }
     }
   }
+
+  
   li {
     p {
       cursor: pointer;
+      font-size: 14px;
     }
     a {
       display: block;
       color: #000;
+      font-size: 14px;
     }
   }
   .flex-space {

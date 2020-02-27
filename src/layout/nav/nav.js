@@ -32,7 +32,7 @@ const Nav = () => {
           title: "Organizing Committees"
         },
         {
-          slug: "/",
+          slug: "/Venue",
           title: "Venue"
         }
       ]
@@ -70,12 +70,12 @@ const Nav = () => {
     },
     {
       title: "Abstracts",
-      slug: "/",
+      slug: "/Abstracts",
       hasDropdown: false
     },
     {
       title: "Accommodation",
-      slug: "/",
+      slug: "/Accomodation",
       hasDropdown: false
     },
     {
@@ -83,11 +83,11 @@ const Nav = () => {
       hasDropdown: true,
       dropdown: [
         {
-          slug: "/",
+          slug: "/Tours",
           title: "Tours"
         },
         {
-          slug: "/",
+          slug: "/About-Georgia",
           title: "About Georgia"
         }
       ]
@@ -98,7 +98,7 @@ const Nav = () => {
     },
     {
       title: "Sponsors",
-      slug: "/"
+      slug: "/Sponsors"
     }
   ];
   const outputMenu = () => {
