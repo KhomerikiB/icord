@@ -105,37 +105,40 @@ const Nav = () => {
     return menu.map((item, index) => {
       if (!item.hasDropdown) {
         return (
-         
-          <li className = "no_dropdown" key={index} onClick={() => setCurrentMenu(undefined)}>
+          <li
+            className="no_dropdown"
+            key={index}
+            onClick={() => setCurrentMenu(undefined)}
+          >
             <Link to={item.slug}>{item.title}</Link>
           </li>
-          
         );
       } else {
         return (
-          <li 
+          <li
             key={index}
             className={
               currentMenu === index
                 ? " main-nav__dropdown__li active"
                 : "main-nav__dropdown__li"
             }
-            onClick={() =>
-              currentMenu !== index
-                ? setCurrentMenu(index)
-                : setCurrentMenu(undefined)
-            }
           >
-            <div className="flex-space">
+            <div
+              className="flex-space"
+              onClick={() =>
+                currentMenu !== index
+                  ? setCurrentMenu(index)
+                  : setCurrentMenu(undefined)
+              }
+            >
               <p>{item.title}</p>
               <IoMdArrowDropdown size={20} />
             </div>
 
             <ul className="main-nav__dropdown">
-              {item.dropdown.map((inner, innerindex )=> {
+              {item.dropdown.map((inner, innerindex) => {
                 return (
-                  <li key={innerindex}
-                  className="dropdown-item">
+                  <li key={innerindex} className="dropdown-item">
                     <Link to={inner.slug}>{inner.title}</Link>
                   </li>
                 );

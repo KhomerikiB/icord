@@ -17,10 +17,12 @@
     right: 0;
 
     li {
-      padding: 5px 15px;
       margin-top: 2rem;
       border: 2px solid #8fa56b;
       border-radius: 40px;
+      a {
+        padding: 5px 15px;
+      }
       &:hover {
         color: white;
         background-color: #8fa56b;
@@ -54,7 +56,6 @@
     }
   }
 
-  
   li {
     p {
       cursor: pointer;
@@ -87,7 +88,9 @@ li.no_dropdown {
     }
   }
 
-  padding: 5px 15px;
+  a {
+    padding: 5px 15px;
+  }
   border: 2px solid #8fa56b;
   border-radius: 40px;
 }
