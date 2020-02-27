@@ -48,11 +48,11 @@ const Welcome = props => {
         </p>
 
         </div>
-        <div className="speakers-grid">
+        {/* <div className="speakers-grid">
           {speakers.map(speaker => (
             <Person data={speaker} key={speaker.id} />
           ))}
-        </div>
+        </div> */}
       </div>
 
       <div className="item2">
@@ -71,9 +71,9 @@ const Welcome = props => {
           </p>
 
         </div>
-        <div className="single-person-wrapper">
+        {/* <div className="single-person-wrapper">
           <Person data={creator} key={creator.id} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
