@@ -1,21 +1,9 @@
-.speakers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 10rem;
-  justify-items: center;
-  justify-content: center;
-}
 .welcome-container {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center;
   justify-content: center;
 
-
-
-  .speakers-grid {
-    margin: 4rem;
-  }
   .single-person-wrapper {
     margin: 4rem 0;
     .speakers-item {
@@ -24,27 +12,45 @@
       }
     }
   }
-  .item1{
+  .item1 {
     grid-row: 1;
     padding-right: 15px;
     text-align: justify;
   }
 
-  .item2{
+  .item2 {
     padding-left: 15px;
     padding-right: 15px;
     grid-row: 1;
-    border-left: 2px solid #8FA56B;
+    border-left: 2px solid #8fa56b;
     text-align: justify;
   }
-  
 }
-.text-wrapper-welcome{
+.text-wrapper-welcome {
   font-size: 1.6rem;
   line-height: 2.4rem;
-  .spacing{
-
+  .spacing {
     padding-top: 5px;
-    
+  }
+}
+.speaker-item-wrapper {
+  margin-top: 2.5rem;
+}
+.speaker-item {
+  max-width: 85%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+  &__desc {
+    max-width: 60%;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+  }
+  &__imagebox {
+    width: 8rem;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 }

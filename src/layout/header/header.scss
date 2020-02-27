@@ -2,7 +2,6 @@
   border-bottom: 3px solid #8fa56b;
   height: 20vh;
   &.auto {
-    
     height: 100%;
     .main-header__wrapper {
       padding-right: 0;
@@ -19,26 +18,31 @@
   &__logo {
     height: 12rem;
     padding-left: 3rem;
-   
+  }
+  &__text__wrapper {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
   }
   &__text {
-    align-self:center;
-   
-    text-align:justify;
     line-height: 2.5rem;
-   
-    font-size: 30px;
-  
+    font-size: 2rem;
+    width: 100%;
   }
-  
+  &__text__bottom {
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    align-items: flex-start;
+    color: #8fa56b;
+  }
   .header-image {
     display: flex;
     img {
       height: 20vh;
       width: 100%;
       object-fit: cover;
-
     }
   }
- 
 }

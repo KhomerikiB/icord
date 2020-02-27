@@ -3,7 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./home.scss";
 
-
 const Home = props => {
   const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
 
@@ -30,9 +29,9 @@ const Home = props => {
           Useful Downloads
         </button>
       </div>
-      <div className="main-slider__abs__text">
+      {/* <div className="main-slider__abs__text">
         <p className="text-wrapper">RARE DISEASES ARE NOT ORPHANS</p>
-      </div>
+      </div> */}
       <Carousel
         showThumbs={false}
         showIndicators={false}

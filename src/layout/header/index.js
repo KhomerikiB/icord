@@ -16,22 +16,25 @@ const Index = props => {
     <header className={`main-header flex-center ${!isIndex ? "auto" : ""}`}>
       <div className="main-header__wrapper">
         <div className="home-row">
-          <div className="home-col-1 relative">             
-                <img
-                  src={require("../../static/images/logo_icord.png")}
-                  alt="icord"
-                  className="main-header__logo"
-                />         
+          <div className="home-col-1 relative">
+            <img
+              src={require("../../static/images/logo_icord.png")}
+              alt="icord"
+              className="main-header__logo"
+            />
           </div>
           {isIndex ? (
-            <p className="main-header__text home-col-2">
-              
+            <div class="main-header__text__wrapper">
+              <p className="main-header__text home-col-2">
                 THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-                ORPHAN DRUGS (ICORD) MEETING <br></br>
-                ARRANGED IN COLABORATION WITH THE GEORGIAN FOUNDATION FOR
-                GENETIC AND RARE DISEASES (GeRaD)
-              
-            </p>
+                ORPHAN DRUGS (ICORD) MEETING ARRANGED IN COLABORATION WITH THE
+                GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES (GeRaD)
+              </p>
+              <div className="flex-space main-header__text__bottom">
+                <p>Ragaca text</p>
+                <p>RARE DISEASES ARE NOT ORPHANS</p>
+              </div>
+            </div>
           ) : (
             <div className="header-image">
               <img
