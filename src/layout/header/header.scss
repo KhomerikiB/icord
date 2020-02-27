@@ -2,13 +2,13 @@
   border-bottom: 3px solid #8fa56b;
   height: 20vh;
   &.auto {
-    height: 100%;
+  
     .main-header__wrapper {
       padding-right: 0;
     }
     .home-col-1 {
       display: flex;
-      margin-top: 1.5rem;
+      
     }
   }
   &__wrapper {
@@ -16,11 +16,11 @@
     padding-right: 3rem;
   }
   &__logo {
-    height: 12rem;
+    height: 10rem;
     padding-left: 3rem;
   }
-  &__text__wrapper {
-  }
+ 
+
   &__text {
     line-height: 2.5rem;
     font-size: 2rem;
@@ -31,8 +31,11 @@
     margin-top: 2rem;
     line-height: 2.5rem;
     font-size: 2rem;
-    align-items: flex-start;
+   
     color: #8fa56b;
+  }
+  &__small__text {
+    font-size: 15px;
   }
   .header-image {
     display: flex;

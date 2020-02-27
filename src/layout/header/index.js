@@ -31,7 +31,7 @@ const Index = props => {
                 GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES (GeRaD)
               </p>
               <div className="flex-space main-header__text__bottom">
-                <p>Ragaca text</p>
+                <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,GEORGIA</p>
                 <p>RARE DISEASES ARE NOT ORPHANS</p>
               </div>
             </div>
