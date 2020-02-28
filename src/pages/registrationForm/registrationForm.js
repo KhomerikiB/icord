@@ -6,12 +6,12 @@ const RegistrationForm = props => {
       <form>
         <input
           type="text"
-          placeholder="Name"
+          placeholder="NAME"
           className="main-input"
         />
         <input
           type="text"
-          placeholder="Surname"
+          placeholder="SURNAME"
           className="main-input"
         />
         <label>Choose a Prefix:</label>
@@ -28,57 +28,57 @@ const RegistrationForm = props => {
 
         <input
           type="text"
-          placeholder="Institution"
+          placeholder="INSTITUTION"
           className="main-input"
         />
  
         <input
           type="text"
-          placeholder="Department"
+          placeholder="DEPARTMENT"
           className="main-input"
         />
 
          <input
           type="text"
-          placeholder="Position"
+          placeholder="POSITION"
           className="main-input"
         />
 
         <input
           type="text"
-          placeholder="Street"
+          placeholder="STREET"
           className="main-input"
         />
 
          <input
           type="text"
-          placeholder="City"
+          placeholder="CITY"
           className="main-input"
         />
 
          <input
           type="text"
-          placeholder="ZIP Code"
+          placeholder="ZIP CODE"
           className="main-input"
         />
 
          <input
           type="text"
-          placeholder="Country"
+          placeholder="COUNTRY"
           className="main-input"
         />
         
-        <input type="email" placeholder="Email" className="main-input" />
+        <input type="email" placeholder="EMAIL" className="main-input" />
 
          <input
           type="number"
-          placeholder="Phone"
+          placeholder="PHONE"
           className="main-input"
         />
 
         <input
           type="text"
-          placeholder="Comments"
+          placeholder="COMMENTS"
           className="main-input"
         />
 

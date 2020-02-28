@@ -83,7 +83,9 @@ const Welcome = props => {
                     alt=""
                   />
                 </div>
+                
               </>
+             
             ))}
           </div>
         </div>
