@@ -70,24 +70,20 @@ const Welcome = props => {
           </p>
         </div>
         <div className="speaker-item-wrapper">
-          <div className="speaker-item flex-space">
-            {speakers.map(speaker => (
-              <>
-                <div className="speaker-item__desc">
-                  <p>{speaker.title}</p>
-                  <p>{speaker.description}</p>
-                </div>
-                <div className="speaker-item__imagebox">
-                  <img
-                    src={require(`../../static/images/speaker-${speaker.image}.jpg`)}
-                    alt=""
-                  />
-                </div>
-                
-              </>
-             
-            ))}
-          </div>
+          {speakers.map((speaker, index) => (
+            <div className="speaker-item flex-space" key={index}>
+              <div className="speaker-item__desc">
+                <p>{speaker.title}</p>
+                <p>{speaker.description}</p>
+              </div>
+              <div className="speaker-item__imagebox">
+                <img
+                  src={require(`../../static/images/speaker-${speaker.image}.jpg`)}
+                  alt=""
+                />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -126,24 +122,20 @@ const Welcome = props => {
           <p className="spacing">On behalf of the Local Organizing Committee</p>
         </div>
         <div className="speaker-item-wrapper">
-          <div className="speaker-item flex-space">
-            {creator.map(speaker => (
-              <>
-                <div className="speaker-item__desc">
-                  <p>{speaker.title}</p>                 
-                  <p>{speaker.description}</p>                  
-                </div>
-                <div className="speaker-item__imagebox">
-                  <img
-                    src={require(`../../static/images/speaker-${speaker.image}.jpg`)}
-                    alt=""
-                  />
-                </div>
-                
-              </>
-            ))}
-            
-          </div>
+          {creator.map((speaker, index) => (
+            <div className="speaker-item flex-space" key={index}>
+              <div className="speaker-item__desc">
+                <p>{speaker.title}</p>
+                <p>{speaker.description}</p>
+              </div>
+              <div className="speaker-item__imagebox">
+                <img
+                  src={require(`../../static/images/speaker-${speaker.image}.jpg`)}
+                  alt=""
+                />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -41,10 +41,15 @@ const Home = props => {
         infiniteLoop={true}
       >
         {images.map(num => (
-          <div className="main-slider__item  full" key={num}>
+          <div className="main-slider__item relative full" key={num}>
             <img
               src={require(`../../static/images/slider-image${num}.jpg`)}
-              className="main-slider__item__img"
+              className="main-slider__item__img primary"
+              alt=""
+            />
+            <img
+              src={require(`../../static/images/slider-image${num}.jpg`)}
+              className="main-slider__item__img hover"
               alt=""
             />
           </div>
