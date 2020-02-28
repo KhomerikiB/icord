@@ -24,15 +24,15 @@ const Index = props => {
             />
           </div>
           {isIndex ? (
-            <div class="main-header__text__wrapper">
+            <div className="main-header__text__wrapper">
+              
               <p className="main-header__text home-col-2">
-                THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-                ORPHAN DRUGS (ICORD) MEETING ARRANGED IN COLABORATION WITH THE
-                GEORGIAN FOUNDATION FOR GENETIC AND RARE DISEASES (GeRaD)
+                <strong>THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
+                ORPHAN DRUGS (ICORD) MEETING  </strong>
               </p>
               <div className="flex-space main-header__text__bottom">
-                <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,GEORGIA</p>
-                <p>RARE DISEASES ARE NOT ORPHANS</p>
+               <strong> <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,GEORGIA</p> </strong>
+               <strong> <p>RARE DISEASES ARE NOT ORPHANS</p>   </strong>
               </div>
             </div>
           ) : (

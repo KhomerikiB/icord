@@ -8,21 +8,21 @@ const Welcome = props => {
       description:
         "National Center for Advancing Translational Sciences, National Institutes of Health, USA",
       image: "1"
+    },
+    {
+      id: 2,
+      title: "Domenica Taruscio, M.D., President-Elect, ICORD",
+      description:
+        "Director, National Centre for Rare Diseases Istituto Superiore di Sanità, Rome, Italy",
+      image: "2"
+    },
+    {
+      id: 3,
+      title: "Manuel Posada De La Paz, M.D., Past-President, ICORD",
+      description:
+        "Director, Institute of Rare Diseases Research Instituto de Salud Carlos III, Madrid, Spain",
+      image: "3"
     }
-    // {
-    //   id: 2,
-    //   title: "Domenica Taruscio, M.D., President-Elect, ICORD",
-    //   description:
-    //     "Director, National Centre for Rare Diseases Istituto Superiore di Sanità, Rome, Italy",
-    //   image: "2"
-    // },
-    // {
-    //   id: 3,
-    //   title: "Manuel Posada De La Paz, M.D., Past-President, ICORD",
-    //   description:
-    //     "Director, Institute of Rare Diseases Research Instituto de Salud Carlos III, Madrid, Spain",
-    //   image: "3"
-    // }
   ]);
   const [creator, setCreator] = useState([
     {
@@ -128,8 +128,8 @@ const Welcome = props => {
             {creator.map(speaker => (
               <>
                 <div className="speaker-item__desc">
-                  <p>{speaker.title}</p>
-                  <p>{speaker.description}</p>
+                  <p>{speaker.title}</p>                 
+                  <p>{speaker.description}</p>                  
                 </div>
                 <div className="speaker-item__imagebox">
                   <img
@@ -137,8 +137,10 @@ const Welcome = props => {
                     alt=""
                   />
                 </div>
+                
               </>
             ))}
+            
           </div>
         </div>
       </div>
