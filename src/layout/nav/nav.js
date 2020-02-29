@@ -6,56 +6,56 @@ const Nav = () => {
   const [currentMenu, setCurrentMenu] = useState(undefined);
   const menu = [
     {
-      title: "Home Page",
+      title: "HOME PAGE",
       slug: "/",
       hasDropdown: false
     },
     {
-      title: "Welcome",
+      title: "WELCOME",
       slug: "/welcome",
       hasDropdown: false
     },
     {
-      title: "Conference Information",
+      title: "CONFERENCE INFORMATION",
       hasDropdown: true,
       dropdown: [
         {
           slug: "/general-information",
-          title: "General Information"
+          title: "GENERAL INFORMATION"
         },
         {
           slug: "/organizers",
-          title: "Organizers and Support Organizations"
+          title: "ORGANIZERS AND SUPPORT ORGANIZATIONS"
         },
         {
           slug: "/organizing-committees",
-          title: "Organizing Committees"
+          title: "ORGANIZING COMMITTEES"
         },
         {
           slug: "/Venue",
-          title: "Venue"
+          title: "VENUE"
         }
       ]
     },
     {
-      title: "The Program",
+      title: "THE PROGRAM",
       hasDropdown: true,
       dropdown: [
         {
           slug: "/programming-plan",
-          title: "Program Planning Committee"
+          title: "PROGRAM PLANNING COMMITTEE"
         },
         {
           slug: "/Scientific-Program",
-          title: "Scientific Program"
+          title: "SCIENTIFIC PROGRAM"
         },
         {
           slug: "/",
-          title: "Program at a glance"
+          title: "PROGRAM AT A GLANCE"
         },
         {
           slug: "/",
-          title: "Speakers"
+          title: "SPEAKERS"
         },
         {
           slug: "/",
@@ -64,40 +64,40 @@ const Nav = () => {
       ]
     },
     {
-      title: "Registration",
+      title: "REGISTRATION",
       slug: "/registration",
       hasDropdown: false
     },
     {
-      title: "Abstracts",
+      title: "ABSTRACTS",
       slug: "/Abstracts",
       hasDropdown: false
     },
     {
-      title: "Accommodation",
+      title: "ACCOMODATION",
       slug: "/Accomodation",
       hasDropdown: false
     },
     {
-      title: "Discover Tbilisi",
+      title: "DISCOVER TBILISI",
       hasDropdown: true,
       dropdown: [
         {
           slug: "/Tours",
-          title: "Tours"
+          title: "TOURS"
         },
         {
           slug: "/About-Georgia",
-          title: "About Georgia"
+          title: "ABOUT GEORGIA"
         }
       ]
     },
     {
-      title: "Useful Information",
+      title: "USEFUL INFORMATION",
       slug: "/useful-Information"
     },
     {
-      title: "Sponsors",
+      title: "SPONSORS",
       slug: "/Sponsors"
     }
   ];

@@ -48,7 +48,7 @@ const Home = props => {
               alt=""
             />
             <img
-              src={require(`../../static/images/slider-image${num}.jpg`)}
+              src={require(`../../static/images/slider-image-hover${num}.jpg`)}
               className="main-slider__item__img hover"
               alt=""
             />

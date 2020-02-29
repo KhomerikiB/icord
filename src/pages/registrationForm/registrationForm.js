@@ -4,14 +4,14 @@ const RegistrationForm = props => {
   return (
     <div className="inner-container">
       <form>
-        <input
+        <input required
           type="text"
-          placeholder="NAME"
+          placeholder="NAME *"
           className="main-input"
         />
-        <input
+        <input required
           type="text"
-          placeholder="SURNAME"
+          placeholder="SURNAME *"
           className="main-input"
         />
         <label>Choose a Prefix:</label>
@@ -26,9 +26,9 @@ const RegistrationForm = props => {
         <br></br>
         <br></br>
 
-        <input
+        <input required
           type="text"
-          placeholder="INSTITUTION"
+          placeholder="INSTITUTION *"
           className="main-input"
         />
  
@@ -50,9 +50,9 @@ const RegistrationForm = props => {
           className="main-input"
         />
 
-         <input
+         <input required
           type="text"
-          placeholder="CITY"
+          placeholder="CITY *"
           className="main-input"
         />
 
@@ -62,17 +62,21 @@ const RegistrationForm = props => {
           className="main-input"
         />
 
-         <input
+         <input required
           type="text"
-          placeholder="COUNTRY"
+          placeholder="COUNTRY *"
           className="main-input"
         />
         
-        <input type="email" placeholder="EMAIL" className="main-input" />
+        <input  required
+        type="email" 
+        placeholder="EMAIL *" 
+        className="main-input" 
+        />
 
-         <input
+         <input required
           type="number"
-          placeholder="PHONE"
+          placeholder="PHONE *"
           className="main-input"
         />
 
@@ -81,7 +85,12 @@ const RegistrationForm = props => {
           placeholder="COMMENTS"
           className="main-input"
         />
-
+        <label>*I’d like to participate the Gala Dinner  </label>
+        <input
+          type="checkbox"
+          className="checkbox"
+        />
+        <br></br>
         <button className="button">Submit</button>
       </form>
     </div>
