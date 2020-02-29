@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./header.scss";
 import ReactFitText from 'react-fittext';
+
 const Index = props => {
   const [isIndex, setIsIndex] = useState(true);
   const [path, setPath] = useState("");
@@ -38,7 +39,7 @@ const Index = props => {
              
               <div className="flex-space main-header__text__bottom">
                <strong> <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,GEORGIA</p> </strong>
-               <strong> <p>RARE DISEASES ARE NOT ORPHANS</p>   </strong>
+               <strong> <p className="main-header__right__text">RARE DISEASES ARE NOT ORPHANS</p>   </strong>
               </div>
             </div>
           ) : (

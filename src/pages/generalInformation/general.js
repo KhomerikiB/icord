@@ -18,7 +18,7 @@ const General = props => {
           </p>
           <div className="data-table-row">
             <div className="data-table-row__1">Nov 19, 2020</div>
-            <div className="data-table-row__2">
+            <div className="data-table-row__1">
               NATIONAL CENTER FOR DISEASE CONTROL AND PUBLIC HEALTH (NCDC)
             </div>
             <div className="data-table-row__2">
