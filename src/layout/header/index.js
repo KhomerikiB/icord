@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./header.scss";
+import ReactFitText from 'react-fittext';
 const Index = props => {
   const [isIndex, setIsIndex] = useState(true);
   const [path, setPath] = useState("");
@@ -12,6 +13,7 @@ const Index = props => {
       setIsIndex(true);
     }
   }, [props.history.location.pathname]);
+  
   return (
     <header className={`main-header flex-center ${!isIndex ? "auto" : ""}`}>
       <div className="main-header__wrapper">
@@ -26,10 +28,14 @@ const Index = props => {
           {isIndex ? (
             <div className="main-header__text__wrapper">
               
+              <ReactFitText compressor={5.5}  minFontSize={10} maxFontSize = {25} >
               <p className="main-header__text home-col-2">
-                <strong>THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-                ORPHAN DRUGS (ICORD) MEETING  </strong>
+                <strong> THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
+                ORPHAN DRUGS (ICORD) MEETING </strong>
+               
               </p>
+              </ReactFitText>
+             
               <div className="flex-space main-header__text__bottom">
                <strong> <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,GEORGIA</p> </strong>
                <strong> <p>RARE DISEASES ARE NOT ORPHANS</p>   </strong>
