@@ -37,6 +37,8 @@ const Index = props => {
               </p>
               </ReactFitText>
              
+
+             
               <div className="flex-space main-header__text__bottom">
                <strong> <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA</p> </strong>
                <ReactFitText compressor={1.3}  minFontSize={10} maxFontSize = {50} >

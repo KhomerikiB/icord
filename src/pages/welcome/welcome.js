@@ -38,6 +38,7 @@ const Welcome = props => {
       <div className="item1">
         <div className="text-wrapper-welcome">
           Dear Colleagues,
+          <p className="spacing"></p>
           <p className="spacing">
             Welcome to Tbilisi, Georgia for the 15th ICORD Conference to be held
             on November 19-21, 2020. The goal of all ICORD conferences is to
@@ -90,7 +91,9 @@ const Welcome = props => {
       <div className="item2">
         <div className="text-wrapper-welcome">
           Dear Guests of Georgia,
+          <p className="spacing"></p>
           <p className="spacing">
+
             We are happy to invite you to Tbilisi, Georgia to take part in the
             15th ICORD Conference will be held on November 19-21, 2020. 3 full
             days meeting will bring together all stakeholders (medical

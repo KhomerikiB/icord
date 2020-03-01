@@ -3,6 +3,7 @@
   grid-template-columns: 50% 50%;
   justify-items: center;
   justify-content: center;
+  font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
 
   .single-person-wrapper {
     margin: 4rem 0;
@@ -28,9 +29,9 @@
 }
 .text-wrapper-welcome {
   font-size: 1.6rem;
-  line-height: 2.4rem;
+  line-height: 1.8rem;
   .spacing {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 }
 .speaker-item-wrapper {
