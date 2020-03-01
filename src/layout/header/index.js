@@ -29,10 +29,10 @@ const Index = props => {
           {isIndex ? (
             <div className="main-header__text__wrapper">
               
-              <ReactFitText compressor={5.5}  minFontSize={10} maxFontSize = {36} >
+              <ReactFitText compressor={4.0}  minFontSize={10} maxFontSize = {50} >
               <p className="main-header__text home-col-2">
-                <strong> THE 15-th ANNUAL INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-                ORPHAN DRUGS (ICORD) MEETING </strong>
+                <strong> 15-th INTERNATIONAL CONFERENCE ON RARE DISEASES AND
+                ORPHAN DRUGS (ICORD 2020)  </strong>
                
               </p>
               </ReactFitText>
