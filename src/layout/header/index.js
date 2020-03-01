@@ -40,8 +40,12 @@ const Index = props => {
 
 
               <div className="main-header__text__bottom">
+              <ReactFitText compressor={2}  minFontSize={8} maxFontSize = {35} >
                <strong> <p className="main-header__small__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA</p> </strong>
+               </ReactFitText>
                <div></div>
+
+
                <ReactFitText compressor={1.5}  minFontSize={10} maxFontSize = {40} >
                <strong> <p className="main-header__right__text">RARE DISEASES ARE NOT ORPHANS</p>   </strong>
                </ReactFitText>
