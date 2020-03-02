@@ -26,7 +26,7 @@
 
   &__text {
     line-height: 2.5rem;  
-    margin-top: 3vh; 
+    margin-top: 3.5vh; 
     width: 100%;
     text-align: justify;
     color: rgb(119, 119, 119);
@@ -38,23 +38,19 @@
     }
   }
   &__text__bottom {
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
     width: 100%;
     margin-top: 1.5vh;
-    line-height: 140%;
     color: #84b13c;
   }
   &__small__text {
-    font-size: 110%;
     font-family: "nirmala";
     color: rgb(119, 119, 119)
   }
 
   &__right__text{
     font-family: "nirmala";
-    color:green;
-    margin-top: 1.5vh;
+    color:#84b13c;
+    margin-top: 4vh;
 
   }
 

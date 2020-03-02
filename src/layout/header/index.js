@@ -41,15 +41,11 @@ const Index = props => {
 
 
                   <div className="main-header__text__bottom">
-                  <ReactFitText compressor={1.4}  minFontSize={10} maxFontSize = {50} >
+
+                 <ReactFitText compressor={40.1}  minFontSize={15} maxFontSize = {50} >
                   <strong> <p className="main-header__small__text">#ICORD2020</p> </strong>
-                  </ReactFitText>
-                  <div></div>
+                </ReactFitText>
 
-
-                  <ReactFitText compressor={2.5}  minFontSize={10} maxFontSize = {40} >
-                  <strong> <p > aaa</p>   </strong>
-                  </ReactFitText>
                   </div>
 
               </div> 
@@ -85,24 +81,3 @@ export default Index;
 
 
 
-// <ReactFitText compressor={3.94}  minFontSize={10} maxFontSize = {50} >
-//               <p className="main-header__text home-col-2">
-//                 <strong>XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-//                 ORPHAN DRUGS</strong>
-               
-//               </p>
-//               </ReactFitText>
-             
-
-
-//               <div className="main-header__text__bottom">
-//               <ReactFitText compressor={1.4}  minFontSize={10} maxFontSize = {50} >
-//                <strong> <p className="main-header__small__text">#ICORD2020</p> </strong>
-//                </ReactFitText>
-//                <div></div>
-
-
-//                <ReactFitText compressor={2.5}  minFontSize={10} maxFontSize = {40} >
-//                <strong> <p className="main-header__right__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA</p>   </strong>
-//                </ReactFitText>
-//               </div>
