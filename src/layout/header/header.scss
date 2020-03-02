@@ -33,7 +33,8 @@
       padding-top: 3vh;
       height: 15vh;
       font-family: "avaza";
-     
+      display:grid;
+      grid-template-columns: 80% 20%;
     }
   }
   &__text__bottom {
@@ -51,8 +52,10 @@
   }
 
   &__right__text{
-    padding-right: 2px;
-    margin-top: 10px;
+    font-family: "nirmala";
+    color:green;
+    margin-top: 1.5vh;
+
   }
 
 
