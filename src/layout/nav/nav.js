@@ -16,7 +16,7 @@ const Nav = () => {
       hasDropdown: false
     },
     {
-      title: "CONFERENCE INFORMATION",
+      title: "THE CONFERENCE",
       hasDropdown: true,
       dropdown: [
         {
