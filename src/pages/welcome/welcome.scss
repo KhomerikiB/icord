@@ -41,14 +41,14 @@
   max-width: 85%;
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(119, 119, 119);
   &__desc {
-    max-width: 60%;
+    max-width: 80%;
     margin-right: 5rem;
     font-size: 1.5rem;
   }
   &__imagebox {
-    width: 8rem;
+    width: 15rem;
     img {
       width: 100%;
       object-fit: cover;
