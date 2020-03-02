@@ -28,7 +28,7 @@
     line-height: 2.5rem;   
     width: 100%;
     text-align: justify;
-
+    color: rgb(119, 119, 119);
     &__wrapper {
       padding-top: 2.3%;
       height: 100%;
@@ -47,6 +47,7 @@
   &__small__text {
     font-size: 110%;
     font-family: "nirmala";
+    color: rgb(119, 119, 119)
   }
 
   &__right__text{
@@ -67,4 +68,14 @@
       display: flex; 
     }
   }
+}
+
+
+.up{
+  font-size: 15px;
+  vertical-align: super;
+}
+
+.brackets{
+  font-family: Arial, Helvetica, sans-serif;
 }
