@@ -25,12 +25,12 @@
   }
 
   &__text {
-    line-height: 2.5rem;   
+    line-height: 2.5rem;  
+    margin-top: 3vh; 
     width: 100%;
     text-align: justify;
     color: rgb(119, 119, 119);
     &__wrapper {
-      padding-top: 3vh;
       height: 15vh;
       font-family: "avaza";
       display:grid;
