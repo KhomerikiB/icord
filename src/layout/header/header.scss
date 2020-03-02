@@ -21,7 +21,7 @@
     height: 80%;
     max-height: 80%;
     margin-top: 5%;
-    padding-left: 3.8vw;
+    padding-left: 3rem;
   }
 
   &__text {
@@ -38,9 +38,11 @@
     }
   }
   &__text__bottom {
-    width: 100%;
+    width: 20%;
     margin-top: 1.5vh;
     color: #84b13c;
+    font-size: 2.2rem;
+
   }
   &__small__text {
     font-family: "nirmala";
@@ -50,7 +52,7 @@
   &__right__text{
     font-family: "nirmala";
     color:#84b13c;
-    margin-top: 4vh;
+    margin-top: 5vh;
 
   }
 

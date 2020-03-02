@@ -41,10 +41,9 @@ const Index = props => {
 
 
                   <div className="main-header__text__bottom">
-
-                 <ReactFitText compressor={40.1}  minFontSize={15} maxFontSize = {50} >
+              
                   <strong> <p className="main-header__small__text">#ICORD2020</p> </strong>
-                </ReactFitText>
+              
 
                   </div>
 
