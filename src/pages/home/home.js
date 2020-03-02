@@ -8,6 +8,7 @@ const Home = props => {
 
   return (
     <div className=" main-slider full">
+      <div className="moto"> <strong>RARE DISEASES ARE NOT ORPHANS </strong></div>
       <div className="main-slider__buttons">
         <button
           className="button"
