@@ -30,7 +30,7 @@ const Index = props => {
             <div className="main-header__text__wrapper">
                 <div className="firstGrid">
                     
-                  <ReactFitText compressor={3.5}  minFontSize={10} maxFontSize = {50} >
+                  <ReactFitText compressor={3.4}  minFontSize={10} maxFontSize = {50} >
                   <p className="main-header__text home-col-2">
                     <strong>XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND
                     ORPHAN DRUGS</strong>
@@ -41,9 +41,11 @@ const Index = props => {
 
 
                   <div className="main-header__text__bottom">
-              
-                  <strong> <p className="main-header__small__text">#ICORD2020</p> </strong>
-              
+                  <ReactFitText compressor={1.3}  minFontSize={10} maxFontSize = {50} >
+                  <p className="main-header__small__text">
+                  <strong> #ICORD2020</strong> 
+                  </p> 
+                  </ReactFitText>
 
                   </div>
 
@@ -52,7 +54,11 @@ const Index = props => {
 
               <div className="SecondGrid">
                 
-              <strong><p className="main-header__right__text">NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA</p>   </strong>
+              <ReactFitText compressor={1.2}  minFontSize={7} maxFontSize = {40} > 
+              <p className="main-header__right__text">            
+              <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
+              </p>
+              </ReactFitText>
               </div>
               
               
