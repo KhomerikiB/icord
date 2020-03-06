@@ -43,14 +43,16 @@
   margin-bottom: 5px;
   border-bottom: 1px solid rgb(119, 119, 119);
   &__desc {
-    max-width: 80%;
+    max-width: 35%;
     margin-right: 5rem;
     font-size: 1.5rem;
   }
   &__imagebox {
-    width: 15rem;
+    width: 6vw;
+    height: 12vh;
     img {
-      width: 100%;
+      width: 6vw;
+      height: 12vh;
       object-fit: cover;
     }
     
