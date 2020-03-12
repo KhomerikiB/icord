@@ -61,7 +61,7 @@ class RegistrationForm extends React.Component {
     formData.append("gala", gala);
     try {
       const result = await axios.post(
-        "http://icord2020.org/api/database/user",
+        "https://icord2020.org/api/database/user",
         formData
       );
       if (result.status === 200) {
