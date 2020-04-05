@@ -150,9 +150,8 @@ select {
   .main-header {
     height: 6vh !important;
     &__logo {
-      max-height: 80%;
-      margin-top: 5%;
       padding-left: 2vw !important;
+      max-width: 90%;
     }
 
     .home-col-1{
@@ -165,17 +164,17 @@ select {
 
 
     &__text {
-      line-height: 1.5vw !important;
-      margin-top:3.5vw !important;
+      line-height: 1vh !important;
+      margin-top:1.5vh !important;
     }
 
     &__small__text{
-      line-height: 1vw !important;
+      line-height: 1vh !important;
     }
 
     &__right__text {
-      line-height: 2.5vw !important;
-      margin-top:1.5vw !important;
+      line-height: 1.5vh !important;
+      margin-top:1.5vh !important;
     }
     &__text__wrapper{
       height: 6vh !important;
