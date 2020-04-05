@@ -148,7 +148,7 @@ select {
 @media only screen and (max-width: 600px) {
 
   .main-header {
-    height: 11vh !important;
+    height: 6vh !important;
     &__logo {
       max-height: 80%;
       margin-top: 5%;
@@ -156,21 +156,35 @@ select {
     }
 
     .home-col-1{
-      height: 11vh !important;
+      height: 6vh !important;
     }
     .home-row{
-      height: 11vh !important;
-      grid-template-columns: 28vw 62vw 10vw;
+      height: 6vh !important;
+      grid-template-columns: 18vw 72vw 10vw;
     }
 
+
+    &__text {
+      line-height: 1.5vw !important;
+      margin-top:3.5vw !important;
+    }
+
+    &__small__text{
+      line-height: 1vw !important;
+    }
+
+    &__right__text {
+      line-height: 2.5vw !important;
+      margin-top:1.5vw !important;
+    }
     &__text__wrapper{
-      height: 11vh !important;
+      height: 6vh !important;
       .firstGrid{
-        height: 11vh !important;
+        height: 6vh !important;
       }
 
       .secondGrid{
-        height: 11vh !important;
+        height: 6vh !important;
       }
     }
   }
@@ -193,10 +207,9 @@ select {
 
 
   .button {
-    width: 10vw !important;
+    width: 5vw !important;
     padding-left: 1rem;
     border-radius: 40px;
-    border: 2px solid white;
   }
 
 
