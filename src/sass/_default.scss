@@ -191,9 +191,12 @@ select {
   .main-content{
     .home-row{
       grid-template-columns: 0px 100vw;
+    
     }
   }
-
+  .main-slider__item{
+    height:88vh !important
+  }
   
   .main-nav {
     display: none;
@@ -202,13 +205,16 @@ select {
 
   .moto{
     left: 2vw !important;
+    font-size: 4.5vw !important;
   }
 
 
   .button {
-    width: 5vw !important;
-    padding-left: 1rem;
+    min-width: 20vw !important;
+    width: 20vw !important;
+    padding: 0.5vw 1vh;
     border-radius: 40px;
+    font-size: 2vw;
   }
 
 

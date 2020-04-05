@@ -30,7 +30,7 @@ const Index = props => {
             <div className="main-header__text__wrapper">
                 <div className="firstGrid">
                     
-                  <ReactFitText compressor={3.4}  minFontSize={3} maxFontSize = {50} >
+                  <ReactFitText compressor={3.4}  minFontSize={1} maxFontSize = {40} >
                   <p className="main-header__text home-col-2">
                     <strong>XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND
                     ORPHAN DRUGS</strong>
