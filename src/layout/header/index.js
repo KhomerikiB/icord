@@ -30,7 +30,7 @@ const Index = props => {
             <div className="main-header__text__wrapper">
                 <div className="firstGrid">
                     
-                  <ReactFitText compressor={3.4}  minFontSize={7} maxFontSize = {50} >
+                  <ReactFitText compressor={3.4}  minFontSize={3} maxFontSize = {50} >
                   <p className="main-header__text home-col-2">
                     <strong>XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND
                     ORPHAN DRUGS</strong>
@@ -41,7 +41,7 @@ const Index = props => {
 
 
                   <div className="main-header__text__bottom">
-                  <ReactFitText compressor={1.3}  minFontSize={10} maxFontSize = {50} >
+                  <ReactFitText compressor={1.3}  minFontSize={3} maxFontSize = {50} >
                   <p className="main-header__small__text">
                   <strong> #ICORD2020</strong> 
                   </p> 
@@ -54,7 +54,7 @@ const Index = props => {
 
               <div className="SecondGrid">
                 
-              <ReactFitText compressor={1.2}  minFontSize={7} maxFontSize = {40} > 
+              <ReactFitText compressor={1.2}  minFontSize={3} maxFontSize = {40} > 
               <p className="main-header__right__text">            
               <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
               </p>
