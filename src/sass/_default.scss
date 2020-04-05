@@ -140,3 +140,69 @@ select {
   margin-left: 1rem;
   margin-bottom: 1.5rem;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .main-header {
+    height: 11vh !important;
+    &__logo {
+      max-height: 80%;
+      margin-top: 5%;
+      padding-left: 2vw !important;
+    }
+
+    .home-col-1{
+      height: 11vh !important;
+    }
+    .home-row{
+      height: 11vh !important;
+      grid-template-columns: 28vw 62vw 10vw;
+    }
+
+    &__text__wrapper{
+      height: 11vh !important;
+      .firstGrid{
+        height: 11vh !important;
+      }
+
+      .secondGrid{
+        height: 11vh !important;
+      }
+    }
+  }
+
+  .main-content{
+    .home-row{
+      grid-template-columns: 0px 100vw;
+    }
+  }
+
+  
+  .main-nav {
+    display: none;
+  }
+
+
+  .moto{
+    left: 2vw !important;
+  }
+
+
+  .button {
+    width: 10vw !important;
+    padding-left: 1rem;
+    border-radius: 40px;
+    border: 2px solid white;
+  }
+
+
+  .main-slider__buttons {
+    top: 8vh !important;
+    right: 2vw !important;
+    z-index: 10;
+  }
+}
