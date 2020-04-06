@@ -31,6 +31,9 @@ body {
   grid-template-columns: 16vw 1fr;
 }
 
+#root {
+  overflow:hidden;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -150,7 +153,8 @@ select {
   .main-header {
     height: 6vh !important;
     &__logo {
-      padding-left: 2vw !important;
+      padding-left: auto !important;
+      padding-right: auto !important;
       max-width: 90%;
     }
 
@@ -164,23 +168,14 @@ select {
 
 
     &__text {
-      line-height: 1vh !important;
-      margin-top:1.5vh !important;
+      line-height: 5px !important;
     }
 
-    &__small__text{
-      line-height: 1vh !important;
-    }
-
-    &__right__text {
-      line-height: 1.5vh !important;
-      margin-top:1.5vh !important;
-    }
+    
+  
     &__text__wrapper{
       height: 6vh !important;
-      .firstGrid{
-        height: 6vh !important;
-      }
+      
 
       .secondGrid{
         height: 6vh !important;
@@ -190,8 +185,7 @@ select {
 
   .main-content{
     .home-row{
-      grid-template-columns: 0px 100vw;
-    
+      grid-template-columns: 0px 100vw;  
     }
   }
   .main-slider__item{
@@ -204,23 +198,24 @@ select {
 
 
   .moto{
-    left: 2vw !important;
-    font-size: 4.5vw !important;
+    left: 2px !important;
+    top: 3.4rem !important;
+    font-size: 16px !important;
   }
 
 
   .button {
     min-width: 20vw !important;
     width: 20vw !important;
-    padding: 0.5vw 1vh;
-    border-radius: 40px;
+    padding: 2px 0px !important;
+    border-radius: 20px;
     font-size: 2vw;
   }
 
 
   .main-slider__buttons {
-    top: 8vh !important;
-    right: 2vw !important;
+    top: 20px !important;
+    right: 10px !important;
     z-index: 10;
   }
 }

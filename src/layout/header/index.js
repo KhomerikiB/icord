@@ -49,21 +49,21 @@ const Index = props => {
 
                   </div>
 
-              </div> 
-
+                </div> 
+              
 
               <div className="SecondGrid">
                 
-              <ReactFitText compressor={1.2}  minFontSize={3} maxFontSize = {40} > 
-              <p className="main-header__right__text">            
-              <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
-              </p>
-              </ReactFitText>
-              </div>
-              
-              
-            </div>
+                <ReactFitText compressor={1.2}  minFontSize={3} maxFontSize = {40} > 
+                <p className="main-header__right__text">            
+                <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
+                </p>
+                </ReactFitText>
 
+              </div>
+     
+            </div>
+            
 
           ) : (
             <div className="header-image">
@@ -75,7 +75,16 @@ const Index = props => {
 
             
           )}
+
+          <div className="mobile-button-container">
+                <div className="mobile-button"></div>
+                <div className="mobile-button"></div>
+                <div className="mobile-button"></div>
+                
+          </div>     
+        
         </div>
+        
       </div>
     </header>
   );
