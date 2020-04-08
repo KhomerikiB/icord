@@ -3,6 +3,17 @@ import "./header.scss";
 import ReactFitText from 'react-fittext';
 
 const Index = props => {
+  function mobileNav() {
+      if (document.getElementsByClassName("main-nav")[0].style.display === "block"){
+        document.getElementsByClassName("main-nav")[0].style.display = "none";
+        document.getElementsByClassName("main-content")[0].
+        getElementsByClassName("home-row")[0].style.gridTemplateColumns = "0 1fr";
+      } else {
+        document.getElementsByClassName("main-nav")[0].style.display = "block";
+        document.getElementsByClassName("main-content")[0].
+        getElementsByClassName("home-row")[0].style.gridTemplateColumns = "50% 50%";
+      }
+  };
   const [isIndex, setIsIndex] = useState(true);
   const [path, setPath] = useState("");
   useEffect(() => {
@@ -41,7 +52,7 @@ const Index = props => {
 
 
                   <div className="main-header__text__bottom">
-                  <ReactFitText compressor={1.3}  minFontSize={3} maxFontSize = {50} >
+                  <ReactFitText compressor={1.3}  minFontSize={5} maxFontSize = {50} >
                   <p className="main-header__small__text">
                   <strong> #ICORD2020</strong> 
                   </p> 
@@ -54,7 +65,7 @@ const Index = props => {
 
               <div className="SecondGrid">
                 
-                <ReactFitText compressor={1.2}  minFontSize={3} maxFontSize = {40} > 
+                <ReactFitText compressor={1.2}  minFontSize={5} maxFontSize = {40} > 
                 <p className="main-header__right__text">            
                 <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
                 </p>
@@ -76,13 +87,18 @@ const Index = props => {
             
           )}
 
-          <div className="mobile-button-container">
+
+          
+          <div className="mobile-button-container" 
+                onClick={() => mobileNav() } >
                 <div className="mobile-button"></div>
                 <div className="mobile-button"></div>
                 <div className="mobile-button"></div>
                 
           </div>     
         
+
+         
         </div>
         
       </div>

@@ -168,7 +168,7 @@ select {
 
 
     &__text {
-      line-height: 5px !important;
+      line-height: 8px !important;
     }
 
     
@@ -193,6 +193,11 @@ select {
   }
   
   .main-nav {
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: none;
   }
 
@@ -205,11 +210,11 @@ select {
 
 
   .button {
-    min-width: 20vw !important;
-    width: 20vw !important;
+    min-width: 75px !important;
+    width: 75px !important;
     padding: 2px 0px !important;
     border-radius: 20px;
-    font-size: 2vw;
+    font-size: 9px;
   }
 
 

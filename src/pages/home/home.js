@@ -7,7 +7,7 @@ const Home = props => {
   const images = ["1", "2", "3", "4", "5", "6", "7", "8"];
 
   return (
-    <div className=" main-slider full">
+    <div className="main-slider full">
       <div className="moto"> <strong>RARE DISEASES ARE NOT ORPHANS </strong></div>
       <div className="main-slider__buttons">
         <button
