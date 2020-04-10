@@ -151,7 +151,7 @@ Tap water is drinkable in all parts of Georgia. </p> `;
 export const Registration = `
 <p> <strong> CONFERENCE REGISTRATION </strong> <br> <br>
 Take advantage of the Early Bird registration fee!  <br> <br>
-Please <a id="replace-link">click here</a> c to register on-line. <br> <br>
+Please <a id="replace-link">click here</a> to register on-line. <br> <br>
 Online registration at this website is the most preferred way. <br> <br>
 
 However, if you experience any problem, you may download the Registration Form in PDF version,
