@@ -148,7 +148,7 @@ select {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
 
   .main-header {
     height: 6vh !important;
@@ -226,5 +226,12 @@ select {
 
   .mobile-button-container{
     display: block !important;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  .main-nav{
+    padding: 3.5vh 1.5rem !important;
   }
 }
