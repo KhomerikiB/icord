@@ -3,6 +3,20 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  @media (max-width: 750px) {
+    padding-top: 5rem !important;
+  }
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    display: none;
+    @media (max-width: 750px) {
+      display: block;
+    }
+  }
   & > ul > li {
     &:not(:last-child) {
       margin-bottom: 2.5vh;

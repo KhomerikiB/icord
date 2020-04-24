@@ -32,7 +32,7 @@ body {
 }
 
 #root {
-  overflow:hidden;
+  overflow: hidden;
 }
 .App {
   display: flex;
@@ -144,12 +144,7 @@ select {
   margin-bottom: 1.5rem;
 }
 
-
-
-
-
 @media only screen and (max-width: 750px) {
-
   .main-header {
     height: 6vh !important;
     &__logo {
@@ -158,56 +153,54 @@ select {
       max-width: 90%;
     }
 
-    .home-col-1{
+    .home-col-1 {
       height: 6vh !important;
     }
-    .home-row{
+    .home-row {
       height: 6vh !important;
       grid-template-columns: 18vw 72vw 10vw;
     }
-
 
     &__text {
       line-height: 8px !important;
     }
 
-    
-  
-    &__text__wrapper{
+    &__text__wrapper {
       height: 6vh !important;
-      
 
-      .secondGrid{
+      .secondGrid {
         height: 6vh !important;
       }
     }
   }
 
-  .main-content{
-    .home-row{
-      grid-template-columns: 0px 100vw;  
+  .main-content {
+    .home-row {
+      grid-template-columns: 0px 100vw;
     }
   }
-  .main-slider__item{
-    height:88vh !important
+  .main-slider__item {
+    height: 88vh !important;
   }
-  
+
   .main-nav {
-    position:fixed;
+    position: absolute !important;
     top: 0;
-    bottom: 0;
-    right: 0;
     left: 0;
+    right: 0;
+    min-height: 100vh;
     display: none;
+    background-color: #fff;
+    &.active {
+      display: block;
+    }
   }
 
-
-  .moto{
+  .moto {
     left: 2px !important;
     top: 3.4rem !important;
     font-size: 16px !important;
   }
-
 
   .button {
     min-width: 75px !important;
@@ -217,21 +210,19 @@ select {
     font-size: 9px;
   }
 
-
   .main-slider__buttons {
     top: 35px !important;
     right: 10px !important;
     z-index: 10;
   }
 
-  .mobile-button-container{
+  .mobile-button-container {
     display: block !important;
   }
 }
 
-
-@media only screen and (max-width: 1024px){
-  .main-nav{
+@media only screen and (max-width: 1024px) {
+  .main-nav {
     padding: 3.5vh 1.5rem !important;
   }
 }

@@ -8,7 +8,7 @@ import Welcome from "./pages/welcome/welcome";
 import GeneralInformation from "./pages/generalInformation/general";
 import StaticPage from "./pages/static/static";
 import RegistrationForm from "./pages/registrationForm/registrationForm";
-
+import { BrowserRouter } from "react-router";
 import Nav from "./layout/nav/nav";
 import {
   ProgramPlanning,
@@ -20,9 +20,13 @@ import {
   Accomodation,
   Tours,
   AboutGeorgia,
-  Sponsors
+  Sponsors,
 } from "./data";
-function App() {
+function App(props) {
+  props.history.listen((location, action) => {
+    const mainNav = document.querySelector(".main-nav");
+    mainNav.classList.remove("active");
+  });
   return (
     <div className="App">
       <Route path="/" component={Header} />
@@ -37,45 +41,47 @@ function App() {
           <Route path="/general-information" component={GeneralInformation} />
           <Route
             path="/programming-plan"
-            render={props => <StaticPage data={ProgramPlanning} {...props} />}
+            render={(props) => <StaticPage data={ProgramPlanning} {...props} />}
           />
 
           <Route
             path="/Scientific-Program"
-            render={props => <StaticPage data={ProgramScience} {...props} />}
+            render={(props) => <StaticPage data={ProgramScience} {...props} />}
           />
 
           <Route
             path="/Useful-Information"
-            render={props => <StaticPage data={UsefulInformation} {...props} />}
+            render={(props) => (
+              <StaticPage data={UsefulInformation} {...props} />
+            )}
           />
           <Route
             path="/Registration"
-            render={props => <StaticPage data={Registration} {...props} />}
+            render={(props) => <StaticPage data={Registration} {...props} />}
           />
           <Route
             path="/Venue"
-            render={props => <StaticPage data={Venue} {...props} />}
+            render={(props) => <StaticPage data={Venue} {...props} />}
           />
           <Route
             path="/Abstracts"
-            render={props => <StaticPage data={Abstracts} {...props} />}
+            render={(props) => <StaticPage data={Abstracts} {...props} />}
           />
           <Route
             path="/Accomodation"
-            render={props => <StaticPage data={Accomodation} {...props} />}
+            render={(props) => <StaticPage data={Accomodation} {...props} />}
           />
           <Route
             path="/About-Georgia"
-            render={props => <StaticPage data={AboutGeorgia} {...props} />}
+            render={(props) => <StaticPage data={AboutGeorgia} {...props} />}
           />
           <Route
             path="/Tours"
-            render={props => <StaticPage data={Tours} {...props} />}
+            render={(props) => <StaticPage data={Tours} {...props} />}
           />
           <Route
             path="/Sponsors"
-            render={props => <StaticPage data={Sponsors} {...props} />}
+            render={(props) => <StaticPage data={Sponsors} {...props} />}
           />
           <Route path="/Registration-form" component={RegistrationForm} />
         </div>

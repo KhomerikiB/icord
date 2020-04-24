@@ -3,17 +3,21 @@ import "./nav.scss";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 const Nav = () => {
+  function closeNav() {
+    const mainNav = document.querySelector(".main-nav");
+    mainNav.classList.remove("active");
+  }
   const [currentMenu, setCurrentMenu] = useState(undefined);
   const menu = [
     {
       title: "HOME PAGE",
       slug: "/",
-      hasDropdown: false
+      hasDropdown: false,
     },
     {
       title: "WELCOME",
       slug: "/welcome",
-      hasDropdown: false
+      hasDropdown: false,
     },
     {
       title: "THE CONFERENCE",
@@ -21,21 +25,21 @@ const Nav = () => {
       dropdown: [
         {
           slug: "/general-information",
-          title: "GENERAL INFORMATION"
+          title: "GENERAL INFORMATION",
         },
         {
           slug: "/organizers",
-          title: "ORGANIZERS AND SUPPORT ORGANIZATIONS"
+          title: "ORGANIZERS AND SUPPORT ORGANIZATIONS",
         },
         {
           slug: "/organizing-committees",
-          title: "ORGANIZING COMMITTEES"
+          title: "ORGANIZING COMMITTEES",
         },
         {
           slug: "/Venue",
-          title: "VENUE"
-        }
-      ]
+          title: "VENUE",
+        },
+      ],
     },
     {
       title: "THE PROGRAM",
@@ -43,40 +47,40 @@ const Nav = () => {
       dropdown: [
         {
           slug: "/programming-plan",
-          title: "PROGRAM PLANNING COMMITTEE"
+          title: "PROGRAM PLANNING COMMITTEE",
         },
         {
           slug: "/Scientific-Program",
-          title: "SCIENTIFIC PROGRAM"
+          title: "SCIENTIFIC PROGRAM",
         },
         {
           slug: "/",
-          title: "PROGRAM AT A GLANCE"
+          title: "PROGRAM AT A GLANCE",
         },
         {
           slug: "/",
-          title: "SPEAKERS"
+          title: "SPEAKERS",
         },
         {
           slug: "/",
-          title: "CME"
-        }
-      ]
+          title: "CME",
+        },
+      ],
     },
     {
       title: "REGISTRATION",
       slug: "/registration",
-      hasDropdown: false
+      hasDropdown: false,
     },
     {
       title: "ABSTRACTS",
       slug: "/Abstracts",
-      hasDropdown: false
+      hasDropdown: false,
     },
     {
       title: "ACCOMODATION",
       slug: "/Accomodation",
-      hasDropdown: false
+      hasDropdown: false,
     },
     {
       title: "DISCOVER TBILISI",
@@ -84,22 +88,22 @@ const Nav = () => {
       dropdown: [
         {
           slug: "/Tours",
-          title: "TOURS"
+          title: "TOURS",
         },
         {
           slug: "/About-Georgia",
-          title: "ABOUT GEORGIA"
-        }
-      ]
+          title: "ABOUT GEORGIA",
+        },
+      ],
     },
     {
       title: "USEFUL INFORMATION",
-      slug: "/useful-Information"
+      slug: "/useful-Information",
     },
     {
       title: "SPONSORS",
-      slug: "/Sponsors"
-    }
+      slug: "/Sponsors",
+    },
   ];
   const outputMenu = () => {
     return menu.map((item, index) => {
@@ -151,6 +155,14 @@ const Nav = () => {
   };
   return (
     <nav className="main-nav">
+      <div
+        className="close"
+        onClick={() => {
+          closeNav();
+        }}
+      >
+        X
+      </div>
       <ul>{outputMenu()}</ul>
     </nav>
   );

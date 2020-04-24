@@ -1,19 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./header.scss";
-import ReactFitText from 'react-fittext';
+import ReactFitText from "react-fittext";
 
-const Index = props => {
+const Index = (props) => {
   function mobileNav() {
-      if (document.getElementsByClassName("main-nav")[0].style.display === "block"){
-        document.getElementsByClassName("main-nav")[0].style.display = "none";
-        document.getElementsByClassName("main-content")[0].
-        getElementsByClassName("home-row")[0].style.gridTemplateColumns = "0 1fr";
-      } else {
-        document.getElementsByClassName("main-nav")[0].style.display = "block";
-        document.getElementsByClassName("main-content")[0].
-        getElementsByClassName("home-row")[0].style.gridTemplateColumns = "50% 50%";
-      }
-  };
+    const mainNav = document.querySelector(".main-nav");
+    mainNav.classList.add("active");
+  }
   const [isIndex, setIsIndex] = useState(true);
   const [path, setPath] = useState("");
   useEffect(() => {
@@ -25,7 +18,7 @@ const Index = props => {
       setIsIndex(true);
     }
   }, [props.history.location.pathname]);
-  
+
   return (
     <header className={`main-header flex-center ${!isIndex ? "auto" : ""}`}>
       <div className="main-header__wrapper">
@@ -39,43 +32,39 @@ const Index = props => {
           </div>
           {isIndex ? (
             <div className="main-header__text__wrapper">
-                <div className="firstGrid">
-                    
-                  <ReactFitText compressor={3.4}  minFontSize={1} maxFontSize = {40} >
+              <div className="firstGrid">
+                <ReactFitText compressor={3.4} minFontSize={1} maxFontSize={40}>
                   <p className="main-header__text home-col-2">
-                    <strong>XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND
-                    ORPHAN DRUGS</strong>
-                  
+                    <strong>
+                      XV INTERNATIONAL CONFERENCE ON RARE DISEASES AND ORPHAN
+                      DRUGS
+                    </strong>
                   </p>
-                  </ReactFitText>
-                
-
-
-                  <div className="main-header__text__bottom">
-                  <ReactFitText compressor={1.3}  minFontSize={5} maxFontSize = {50} >
-                  <p className="main-header__small__text">
-                  <strong> #ICORD2020</strong> 
-                  </p> 
-                  </ReactFitText>
-
-                  </div>
-
-                </div> 
-              
-
-              <div className="SecondGrid">
-                
-                <ReactFitText compressor={1.2}  minFontSize={5} maxFontSize = {40} > 
-                <p className="main-header__right__text">            
-                <strong>NOVEMBER 19-21, 2020 <br></br>  TBILISI,    GEORGIA   </strong>
-                </p>
                 </ReactFitText>
 
+                <div className="main-header__text__bottom">
+                  <ReactFitText
+                    compressor={1.3}
+                    minFontSize={5}
+                    maxFontSize={50}
+                  >
+                    <p className="main-header__small__text">
+                      <strong> #ICORD2020</strong>
+                    </p>
+                  </ReactFitText>
+                </div>
               </div>
-     
-            </div>
-            
 
+              <div className="SecondGrid">
+                <ReactFitText compressor={1.2} minFontSize={5} maxFontSize={40}>
+                  <p className="main-header__right__text">
+                    <strong>
+                      NOVEMBER 19-21, 2020 <br></br> TBILISI, GEORGIA{" "}
+                    </strong>
+                  </p>
+                </ReactFitText>
+              </div>
+            </div>
           ) : (
             <div className="header-image">
               <img
@@ -83,31 +72,17 @@ const Index = props => {
                 src={require("../../static/images/header-image.jpg")}
               />
             </div>
-
-            
           )}
 
-
-          
-          <div className="mobile-button-container" 
-                onClick={() => mobileNav() } >
-                <div className="mobile-button"></div>
-                <div className="mobile-button"></div>
-                <div className="mobile-button"></div>
-                
-          </div>     
-        
-
-         
+          <div className="mobile-button-container" onClick={() => mobileNav()}>
+            <div className="mobile-button"></div>
+            <div className="mobile-button"></div>
+            <div className="mobile-button"></div>
+          </div>
         </div>
-        
       </div>
     </header>
   );
 };
 
 export default Index;
-
-
-
-
